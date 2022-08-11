@@ -12,12 +12,18 @@ import { AppComponent } from './app.component';
 import { NavegationBarComponent } from './navegation-bar/navegation-bar.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ContatoComponent } from './contato/contato.component';
+import { CurriculoComponent } from './curriculo/curriculo.component';
+import { SobreMimComponent } from './sobre-mim/sobre-mim.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavegationBarComponent,
-    HomePageComponent
+    HomePageComponent,
+    ContatoComponent,
+    CurriculoComponent,
+    SobreMimComponent
   ],
   imports: [
     BrowserModule,
