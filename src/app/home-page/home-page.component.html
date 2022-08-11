@@ -1,1 +1,46 @@
 <app-navegation-bar></app-navegation-bar>
+<div class="container align-items-center mb-5">
+  <mat-card class="text-center mb-5">
+    <div>
+      <img src="../../assets/img/foto_patryck.png" class="foto_patryck mb-5 mt-5" alt="Patryck Moulaz">
+    </div>
+    <div class="row mb-3">
+      <mat-card-title>Patryck Moulaz</mat-card-title>
+      <h4>Desenvolvedor Full-Stack / Front-End</h4>
+    </div>
+
+    <div class="d-flex justify-content-center mb-3">
+      <!-- LINKEDIN -->
+      <div>
+        <a href="https://www.linkedin.com/in/patryckmoulaz/">
+          <i class="pi pi-linkedin" style="font-size: 2rem; margin-right:2rem;"></i>
+        </a>
+      </div>
+      <!-- GITHUB -->
+      <div>
+        <a href="https://github.com/patryckro">
+          <i class="pi pi-github" style="font-size: 2rem;  margin-right:2rem;"></i>
+        </a>
+      </div>
+      <!-- INSTAGRAM -->
+      <div>
+        <a href="https://www.instagram.com/patryck.moulaz/">
+          <i class="pi pi-instagram" style="font-size: 2rem"></i>
+        </a>
+      </div>
+    </div>
+    <div>
+      <mat-tab-group mat-align-tabs="center">
+        <mat-tab label="Quem sou eu!">
+          <app-sobre-mim></app-sobre-mim>
+        </mat-tab>
+        <mat-tab label="Currículo">
+          <app-curriculo></app-curriculo>
+        </mat-tab>
+        <mat-tab label="Entre em contato">
+          <app-contato></app-contato>
+        </mat-tab>
+      </mat-tab-group>
+    </div>
+  </mat-card>
+</div>

@@ -1,0 +1,18 @@
+@import '../../../node_modules/primeicons/primeicons.css';
+
+.foto_patryck {
+  max-width: 200px;
+  width: 30%;
+  background-size: cover;
+  border-radius: 90px;
+  box-shadow: 0px 0px 10px 6px rgba(45, 14, 90, 0.5);
+
+}
+
+a {
+  color: #673ab7;
+}
+
+a:hover{
+  color: #5624ac;
+}
